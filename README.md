@@ -7,3 +7,10 @@ I want to unit test my
 -set up done
 -functional done
 
+As a user
+In order to make a withdrawal
+The ATM needs to have funds
+
+-Need to have funds
+-User can make withdrawal = withdrawal method
+-ATM class

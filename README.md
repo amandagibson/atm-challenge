@@ -11,6 +11,7 @@ As a user
 In order to make a withdrawal
 The ATM needs to have funds
 
--Need to have funds
--User can make withdrawal = withdrawal method
--ATM class
+-Need to have funds Done
+-User can make withdrawal = withdrawal method Done
+-ATM class Done
+

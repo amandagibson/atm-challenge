@@ -1,16 +1,16 @@
-As a programmer 
-In order to work in a test driven way 
-I want to unit test my 
+#### As a programmer 
+#### In order to work in a test driven way 
+#### I want to unit test my 
 
 
-= Rspec
+#### = Rspec
 - initialize Done
 - set up Done
 
 
-As a user 
-In order to make a withdrawal 
-The ATM needs to have funds 
+#### As a user 
+#### In order to make a withdrawal 
+#### The ATM needs to have funds 
 
 
 - Need to have funds Done

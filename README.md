@@ -16,4 +16,3 @@ The ATM needs to have funds
 - Need to have funds Done
 - User can make withdrawal = withdrawal method Done
 - ATM class Done
-

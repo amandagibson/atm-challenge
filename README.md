@@ -1,8 +1,8 @@
-As a programmer 
-In order to work in a test driven way 
-I want to unit test my 
+#### As a programmer 
+#### In order to work in a test driven way 
+#### I want to unit test my 
 
 
-= Rspec
+#### = Rspec
 - initialize Done
 - set up Done

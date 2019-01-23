@@ -16,3 +16,7 @@ I want each person to have an separate account
 
 As a ATM operator
 In order ensure that an Acccount holder can only withdraw funds <br> that he has balance for I want to allow a withdrawal only if there are sufficient <br> funds in the account
+
+As a Customer              
+In order to keep my funds secure             
+I want a secure Pin code & an expiry date on my card that allows only me access to my funds

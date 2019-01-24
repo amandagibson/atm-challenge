@@ -7,6 +7,7 @@ describe Account do
     subject { described_class.new({owner: person}) }
     
 
+
     it 'check length of a number' do
         number = 1234
         number_length = Math.log10(number).to_i + 1
@@ -35,7 +36,14 @@ describe Account do
         expect { described_class.new }.to raise_error 'An Account owner is required'
       end
 
+      it 'is expected to have an owner' do
+        expect(subject.owner).to eq person
+      end
 
+      it 'is expected to raise error if no owner is set' do
+        expect { described_class.new }.to raise_error 'An Account owner is required'
+      end
 
 
 end
+

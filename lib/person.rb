@@ -1,5 +1,6 @@
 require 'account.rb'
 
+
 class Person
 
 attr_accessor :name, :cash, :account
@@ -26,9 +27,8 @@ attr_accessor :name, :cash, :account
 private
 
     def deposit_funds(amount)
-         @cash -= amount
-         @account.balance ||= 0
-         @account.balance += amount
+        @cash -= amount
+        @account.balance += amount
     end
     
     def withdraw_funds(args)

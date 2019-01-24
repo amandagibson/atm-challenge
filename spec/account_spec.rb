@@ -1,11 +1,8 @@
 require './lib/account.rb'
-<<<<<<< HEAD
-require 'date' 
-=======
 require 'date'
->>>>>>> c1bba880675072835d2f0496ef43f1912670bae1
 
 describe Account do
+    
 
     it 'check length of a number' do
         number = 1234
@@ -19,8 +16,20 @@ describe Account do
     end
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 end
 =======
+=======
+    it 'is expected to have :active status on initialize' do
+        expect(subject.account_status).to eq :active
+    end
+
+    it 'deactivates account using Class method' do
+        Account.deactivate(subject)
+        expect(subject.account_status).to eq :deactivated
+      end
+
+>>>>>>> 1d970cbf2c4ecf0b2d0630b6e552bf60513e3311
 
 
 

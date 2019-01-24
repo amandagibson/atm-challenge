@@ -2,7 +2,8 @@ require './lib/account.rb'
 require 'date'
 
 describe Account do
-    
+    let(:person) {instance_double('Person', name: 'Thomas')}
+    subject { described_class.new({owner: person}) }
 
     it 'check length of a number' do
         number = 1234
@@ -15,11 +16,6 @@ describe Account do
         expect(subject.exp_date).to eq expected_date
     end
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-end
-=======
-=======
     it 'is expected to have :active status on initialize' do
         expect(subject.account_status).to eq :active
     end
@@ -29,9 +25,14 @@ end
         expect(subject.account_status).to eq :deactivated
       end
 
->>>>>>> 1d970cbf2c4ecf0b2d0630b6e552bf60513e3311
+      it 'is expected to have an owner' do
+        expect(subject.owner).to eq person
+      end
 
+      it 'is expected to raise error if no owner is set' do
+        expect { described_class.new }.to raise_error 'An Account owner is required'
+      end
 
 
 end
->>>>>>> c1bba880675072835d2f0496ef43f1912670bae1
+

@@ -11,11 +11,11 @@ The ATM needs to have funds - DONE
 
 
 As an ATM operator
-In order for the right person to make a withdrawal <br>
+In order for the right person to make a withdrawal
 I want each person to have an separate account
 
 As a ATM operator
-In order ensure that an Acccount holder can only withdraw funds <br> that he has balance for I want to allow a withdrawal only if there are sufficient <br> funds in the account
+In order ensure that an Acccount holder can only withdraw funds that he has balance for I want to allow a withdrawal only if there are sufficient funds in the account
 
 As a Customer              
 In order to keep my funds secure             
@@ -24,3 +24,7 @@ I want a secure Pin code & an expiry date on my card that allows only me access 
 As a Customer
 In order to manage my funds
 I need to have a personal account
+
+As a ATM operator      
+In order to keep track of our costumers     
+We want to assign each account to a separate person

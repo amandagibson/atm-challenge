@@ -67,7 +67,7 @@ describe Person do
             expect(subject.account.balance).to be 0
             expect(subject.cash).to be 100
         end
-
+    end
         describe ' can not manage funds if no account been created' do
     
             it '12. can\'t deposit funds' do
@@ -76,6 +76,6 @@ describe Person do
 
             end
         end
-    end
+    
 
 end 

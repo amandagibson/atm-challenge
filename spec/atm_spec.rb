@@ -1,9 +1,11 @@
 require './lib/atm.rb'
+require './lib/account.rb'
 require 'date'
 
-describe Atm do 
-  
+describe Atm do
+
     let(:account) { instance_double('Account', pin_code: '1234', exp_date: '04/20', account_status: :active) }
+  
 
     before do
    

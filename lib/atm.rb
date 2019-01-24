@@ -1,3 +1,5 @@
+require 'account.rb'
+
 class Atm
   attr_accessor :funds
 

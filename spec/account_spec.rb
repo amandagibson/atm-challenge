@@ -1,5 +1,9 @@
 require './lib/account.rb'
+<<<<<<< HEAD
 require 'date' 
+=======
+require 'date'
+>>>>>>> c1bba880675072835d2f0496ef43f1912670bae1
 
 describe Account do
 
@@ -14,4 +18,11 @@ describe Account do
         expect(subject.exp_date).to eq expected_date
     end
 
+<<<<<<< HEAD
 end
+=======
+
+
+
+end
+>>>>>>> c1bba880675072835d2f0496ef43f1912670bae1

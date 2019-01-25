@@ -59,6 +59,4 @@ private
         raise RuntimeError, 'An ATM is required'
     end
 
-
-
 end

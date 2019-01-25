@@ -44,5 +44,4 @@ In irb:
 - Create the atm - atm = Atm.new
 - Create person - person = Person.new({name: 'Per'})
 - Create account - account = Account.new
-
 - Deposit funds - person.deposit()

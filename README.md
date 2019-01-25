@@ -1,4 +1,4 @@
-#### User Stories
+# ATM Challenge - Week 1 of Bootcamp
 
 As a programmer 
 In order to work in a test driven way 
@@ -37,7 +37,7 @@ As a Person with a Bank Account
 in order to be able to put my funds in the account
 i would like to be able to make a deposit
 
-# Instructions
+## Instructions
 
 In irb:
 

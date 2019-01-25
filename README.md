@@ -37,3 +37,12 @@ As a Person with a Bank Account
 in order to be able to put my funds in the account
 i would like to be able to make a deposit
 
+# Instructions
+
+In irb:
+
+- Create the atm - atm = Atm.new
+- Create person - person = Person.new({name: 'Per'})
+- Create account - account = Account.new
+
+- Deposit funds - person.deposit()

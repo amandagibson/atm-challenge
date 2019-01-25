@@ -1,13 +1,16 @@
+
+require 'date'
+
 class Account
     
-attr_accessor :funds, :balance, :account_status, :exp_date, :pin_code, :owner
+attr_accessor :balance, :account_status, :exp_date, :pin_code, :owner
 
 STANDARD_VALIDITY_YRS = 5
 
 
     def initialize(attrs = {})
+    
         @balance = 0
-        @funds = 1000
         @account_status = :active
         @exp_date = Date.today.next_year(STANDARD_VALIDITY_YRS).strftime("%m/%y")
         @pin_code = make_pin

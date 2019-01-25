@@ -1,3 +1,4 @@
+require './lib/account.rb'
 require 'date'
 
 class Person
@@ -28,6 +29,7 @@ private
     def deposit_funds(amount)
         @cash -= amount
         @account.balance += amount
+        
     end
     
     def withdraw_funds(args)

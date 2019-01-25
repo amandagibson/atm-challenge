@@ -39,10 +39,49 @@ i would like to be able to make a deposit
 
 # Instructions
 
-In irb:
 
-- Create the atm - atm = Atm.new
-- Create person - person = Person.new({name: 'Per'})
-- Create account - account = Account.new
+## Initialize the stage
 
-- Deposit funds - person.deposit()
+Run these commands in irb:
+
+```
+load './lib/atm.rb'
+=> true 
+
+load './lib/person.rb'
+=> true 
+
+load './lib/account.rb'
+=> true 
+
+```
+
+## Create the ATM
+
+```
+atm = Atm.new
+```
+## Create a Person
+```
+name_of_person = Person.new({name: 'Per'})
+```
+## Create an Account
+```
+name_of_account = person.create_account
+```
+## Deposit to the Account
+```
+name_of_person.deposit(amount)
+```
+## Withdraw from the ATM
+```
+atm.withdraw(amount, pincode, account)
+```
+## Check ATM balance
+```
+atm.funds
+```
+## Check Account balance
+```
+name_of_account.balance
+```

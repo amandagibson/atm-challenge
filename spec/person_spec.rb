@@ -1,6 +1,5 @@
 require './lib/person.rb'
 require './lib/atm.rb'
-require 'pry'
 
 describe Person do
 
